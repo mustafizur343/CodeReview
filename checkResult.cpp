@@ -15,6 +15,39 @@ int main(int argc, char const *argv[])
 
     double averageResult = (double)totalResult / 3.0;
     cout << "Average Result is: " << averageResult << endl;
+    
+    // Add greade
+
+   if (averageResult>=80)
+   {
+       cout<<"A+"<<endl;
+   }
+   else if(averageResult>=70)
+   {
+       cout<<"A"<<endl;
+   }
+   else if(averageResult>=60)
+   {
+       cout<<"A-"<<endl;
+   }
+   else if(averageResult>=50)
+   {
+       cout<<"B"<<endl;
+   }
+   else if(averageResult>=40)
+   {
+       cout<<"C"<<endl;
+   }
+   else if(averageResult>=33)
+   {
+       cout<<"D"<<endl;
+   }
+   else
+   {
+       cout<<"Fail"<<endl;
+   }
+   
+
 
     return 0;
 }

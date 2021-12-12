@@ -2,6 +2,7 @@
 using namespace std;
 int main(int argc, char const *argv[])
 {
+    // resultChecker
     int bang, eng, math;
     cout << "Enter bangla subject result: ";
     cin >> bang;

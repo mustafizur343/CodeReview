@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
 
    if (averageResult>=80)
    {
-       cout<<"A+"<<endl;
+       cout<<"A+"<<endl<<endl;
    }
    else if(averageResult>=70)
    {
